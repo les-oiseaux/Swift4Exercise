@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E12D9C4B237CA023005F4E5B /* ExtendedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D9C4A237CA023005F4E5B /* ExtendedData.swift */; };
 		E148A2082379F3F400F697E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148A2072379F3F400F697E9 /* AppDelegate.swift */; };
 		E148A20A2379F3F400F697E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148A2092379F3F400F697E9 /* SceneDelegate.swift */; };
 		E148A20C2379F3F400F697E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148A20B2379F3F400F697E9 /* ContentView.swift */; };
 		E148A20E2379F3F800F697E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E148A20D2379F3F800F697E9 /* Assets.xcassets */; };
 		E148A2112379F3F800F697E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E148A2102379F3F800F697E9 /* Preview Assets.xcassets */; };
 		E148A2142379F3F800F697E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E148A2122379F3F800F697E9 /* LaunchScreen.storyboard */; };
+		E148A21C2379F42800F697E9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148A21B2379F42800F697E9 /* MainTabBarController.swift */; };
+		E148A21E2379F4F600F697E9 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148A21D2379F4F600F697E9 /* MainNavigationController.swift */; };
+		E148A2202379F52200F697E9 /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148A21F2379F52200F697E9 /* SecondaryViewController.swift */; };
+		E155E787237C697200FD1BE0 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155E786237C697200FD1BE0 /* TriangleView.swift */; };
+		E155E789237C854E00FD1BE0 /* ClickMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155E788237C854E00FD1BE0 /* ClickMeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E12D9C4A237CA023005F4E5B /* ExtendedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedData.swift; sourceTree = "<group>"; };
 		E148A2042379F3F400F697E9 /* SwiftExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E148A2072379F3F400F697E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E148A2092379F3F400F697E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		E148A2102379F3F800F697E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E148A2132379F3F800F697E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E148A2152379F3F800F697E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E148A21B2379F42800F697E9 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		E148A21D2379F4F600F697E9 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		E148A21F2379F52200F697E9 /* SecondaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
+		E155E786237C697200FD1BE0 /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		E155E788237C854E00FD1BE0 /* ClickMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickMeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E12D9C49237C9FE5005F4E5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E12D9C4A237CA023005F4E5B /* ExtendedData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E148A1FB2379F3F400F697E9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +76,9 @@
 		E148A2062379F3F400F697E9 /* SwiftExercise */ = {
 			isa = PBXGroup;
 			children = (
+				E12D9C49237C9FE5005F4E5B /* Models */,
+				E155E78C237C8C2700FD1BE0 /* ViewControllers */,
+				E155E78A237C8C0C00FD1BE0 /* Views */,
 				E148A2072379F3F400F697E9 /* AppDelegate.swift */,
 				E148A2092379F3F400F697E9 /* SceneDelegate.swift */,
 				E148A20B2379F3F400F697E9 /* ContentView.swift */,
@@ -73,6 +96,25 @@
 				E148A2102379F3F800F697E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E155E78A237C8C0C00FD1BE0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E155E786237C697200FD1BE0 /* TriangleView.swift */,
+				E155E788237C854E00FD1BE0 /* ClickMeButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E155E78C237C8C2700FD1BE0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E148A21D2379F4F600F697E9 /* MainNavigationController.swift */,
+				E148A21B2379F42800F697E9 /* MainTabBarController.swift */,
+				E148A21F2379F52200F697E9 /* SecondaryViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E155E787237C697200FD1BE0 /* TriangleView.swift in Sources */,
+				E148A21E2379F4F600F697E9 /* MainNavigationController.swift in Sources */,
 				E148A2082379F3F400F697E9 /* AppDelegate.swift in Sources */,
 				E148A20A2379F3F400F697E9 /* SceneDelegate.swift in Sources */,
+				E148A21C2379F42800F697E9 /* MainTabBarController.swift in Sources */,
+				E155E789237C854E00FD1BE0 /* ClickMeButton.swift in Sources */,
 				E148A20C2379F3F400F697E9 /* ContentView.swift in Sources */,
+				E148A2202379F52200F697E9 /* SecondaryViewController.swift in Sources */,
+				E12D9C4B237CA023005F4E5B /* ExtendedData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
