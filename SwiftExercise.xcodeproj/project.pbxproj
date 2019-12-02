@@ -17,7 +17,6 @@
 		E148A21C2379F42800F697E9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148A21B2379F42800F697E9 /* MainTabBarController.swift */; };
 		E148A21E2379F4F600F697E9 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148A21D2379F4F600F697E9 /* MainNavigationController.swift */; };
 		E148A2202379F52200F697E9 /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148A21F2379F52200F697E9 /* SecondaryViewController.swift */; };
-		E155E787237C697200FD1BE0 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155E786237C697200FD1BE0 /* TriangleView.swift */; };
 		E155E789237C854E00FD1BE0 /* ClickMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155E788237C854E00FD1BE0 /* ClickMeButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +33,6 @@
 		E148A21B2379F42800F697E9 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		E148A21D2379F4F600F697E9 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		E148A21F2379F52200F697E9 /* SecondaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
-		E155E786237C697200FD1BE0 /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
 		E155E788237C854E00FD1BE0 /* ClickMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickMeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +99,6 @@
 		E155E78A237C8C0C00FD1BE0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E155E786237C697200FD1BE0 /* TriangleView.swift */,
 				E155E788237C854E00FD1BE0 /* ClickMeButton.swift */,
 			);
 			path = Views;
@@ -188,7 +185,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E155E787237C697200FD1BE0 /* TriangleView.swift in Sources */,
 				E148A21E2379F4F600F697E9 /* MainNavigationController.swift in Sources */,
 				E148A2082379F3F400F697E9 /* AppDelegate.swift in Sources */,
 				E148A20A2379F3F400F697E9 /* SceneDelegate.swift in Sources */,
